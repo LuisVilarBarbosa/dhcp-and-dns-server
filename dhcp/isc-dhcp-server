@@ -1,0 +1,4 @@
+#! /bin/sh
+set -e
+systemctl start isc-dhcp-server.service
+exit 0

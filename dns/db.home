@@ -1,3 +1,4 @@
+$ORIGIN .
 home			IN SOA	home. root.home. (
 				1         ; serial
 				604800     ; refresh (1 week)
@@ -5,3 +6,6 @@ home			IN SOA	home. root.home. (
 				2419200    ; expire (4 weeks)
 				604800     ; minimum (1 week)
 				)
+			NS	dns-server.home.
+$ORIGIN home.
+dns-server.home.	A	192.168.1.254
