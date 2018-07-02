@@ -1,0 +1,17 @@
+
+# Interface Name #
+auto eth0
+# Static IP Address #
+iface eth0 inet static
+# IP Address #
+address 192.168.1.254
+# Netmask #
+netmask 255.255.255.0
+# Gateway #
+gateway 192.168.1.1
+# DNS Servers #
+dns-nameservers 127.0.0.1
+dns-nameservers 8.8.8.8
+# Search Domain #
+dns-search home
+
