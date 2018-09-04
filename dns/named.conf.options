@@ -16,8 +16,8 @@ options {
 	};
 
 	forwarders {
-		199.85.126.30;  // Norton DNS Server 1
-		199.85.127.30;  // Norton DNS Server 2
+		1.1.1.1;  // Cloudflare DNS Server 1
+		1.0.0.1;  // Cloudflare DNS Server 2
 	};
 
 	//========================================================================
